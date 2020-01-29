@@ -14,7 +14,6 @@
   font-family: "Cookie";
   padding: 20px;
   margin: 15px;
-  z-index: 1;
   opacity: 0.7;
   color: rgb(14, 14, 14);
 }
@@ -104,7 +103,7 @@ a{
 		width:100%;
 	}
 	.social{
-		width;100%;
+		width: 100%;
 		float:left;
 		text-align:center;
 		border-top:1px solid #fff;
@@ -124,59 +123,33 @@ a{
  
  
 .big-paragraph{
-	height:1080px;
+	height:1800px;
 	width:100%;
-	background:rgb(0,0,0);
+	background-color:rgb(0,0,0);
 }
  
 
  
 .box-container{
-	width: 55%;
-	padding: 20px;
-	margin: 100px auto;
-	background: #ddd;
+	width: 70%;
+	height: 30%;
+	margin-left: 17%;
+	background-color: #ddd; /* Remove after webpage done! */
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.box{
-	width: 250px;
-	height: 400px;
-	background: red;
-    margin: 0px 10px;
-    transition: 1s;	
+#box{
+	width: 45%;
+	height: 72.5%;
+	background-color: red; 
+    margin: 6%;
+    transition: .1s;	
 }
 	
-.box:hover{
+#box:hover{
 	transform: scale(1.3);
-	background: #ff800a;
-	z-index: 2;
-	box-shadow: 2px 2px 2px #000;
-}
-
-.box-container2{
-	width: 55%;
-	padding: 20px;
-	margin: 100px auto;
-	background: #ddd;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.box2{
-	width: 250px;
-	height: 300px;
-	background: red;
-    margin: 0px 10px;
-    transition: 1s;
-}
-	
-.box2:hover{
-	transform: scale(1.3);
-	background: #ff800a;
-	z-index: 2;
-	box-shadow: 2px 2px 2px #000;
+	background-color: rgb(255,0,0)
+	box-shadow: 2px;
 }
